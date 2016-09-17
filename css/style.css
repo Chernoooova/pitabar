@@ -3,8 +3,9 @@ body
 	{
 		background: #ffffff;
     font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     position: relative;
+    letter-spacing: 0.4px;
 	}
 
 .heading {
@@ -13,6 +14,7 @@ body
   color: #ffffff;
   font-weight: 700;
   letter-spacing: 0.4px;
+  line-height: 20px; 
 }
 
 
@@ -100,16 +102,21 @@ p {
   line-height: 28px;
 }
 .navbar-default .navbar-brand  {
-  color: #5C5C5C;
+  color: #777;
   font-family: "Montserrat",sans-serif;
   font-size: 22px;
-  font-weight: bold;
-  letter-spacing: 2px;
+  font-weight: 700;
+  letter-spacing: 0.9px;
 }
 .navbar-default .navbar-nav li a {
   font-size: 12px;
   letter-spacing: 1px;
 }
+.navbar-default .navbar-nav li a:hover {
+  color: #71cc52;
+
+}
+
 
 /* home section */
 #home {
@@ -129,32 +136,12 @@ p {
   height: 100vh;
   text-align: center;
 }
-#home h1 {
-  font-family: "Montserrat",sans-serif;
-    font-size: 39px;
-    letter-spacing: 7px;
-    
-    line-height: 1em;
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: .05em;
-    font-weight: 700;
-    font-style: normal;
-    max-width: 100%;
-    display: inline-block;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    margin: 0;
-    color: #fff;
-    position: relative;
-    z-index: inherit;
-}
-/*
+
+
 #home .btn {
   background: transparent;
-  border-radius: 0;
-  border: 3px solid #ffffff;
+  border-radius: 0px;
+  border: 2px solid #ffffff;
   color: #ffffff;
   font-weight: normal;
   letter-spacing: 2px;
@@ -164,10 +151,10 @@ p {
 }
 
 #home .btn:hover {
-  background: #ffffff;
-  color: #202020;
+  background: transparent;
+  border: 2px solid #71cc52;
 }
-*/
+
 
 /* team section */
 #team {
@@ -217,21 +204,38 @@ p {
   padding-bottom: 12px;
 }
 #gallery h3 {
+  color:#5C5C5C;
   font-size: 18px;
-  line-height: 8px;
+  line-height: 20px;
 }
 
 /* booking section */
 #booking {
-  padding-top: 80px;
+  font-family: "Roboto",sans-serif;
+  font-size: 24px;
+  letter-spacing: 0.5px;
+  color:#5C5C5C;
+  font-weight: 400;
+
+  padding-top: 40px;
   padding-bottom: 100px;
+}
+#booking-header {
+  font-family: "Roboto",sans-serif;
+  font-size: 24px;
+  letter-spacing: 0.5px;
+  color:#777;
+  font-weight: 500;
+  padding-top: 40px;
+  padding-bottom: 20px;
+
 }
 #booking .col-md-8 {
   margin-bottom: 32px;
 }
 #booking .form-control {
   background: #ffffff;
-  border: 2px solid #999;
+  border: 2px solid #f9f9f9;
   border-radius: 0;
   box-shadow: none;
   margin-top: 10px;
@@ -239,22 +243,20 @@ p {
   transition: all 0.4s ease-in-out;
 }
 #booking .form-control:focus {
-  border-color: #f9f9f9;
+  border-color: #71cc52;
 }
 #booking input {
   height: 48px;
 }
 #booking input[type="submit"] {
   background: transparent;
-  border: 2px solid #999;
-  
-  letter-spacing: 2px;
+  letter-spacing: 0.5px;
   margin-top: 12px;
   height: 50px;
 }
 #booking input[type="submit"]:hover {
-  background: #999;
-  color: #ffffff;
+  border: 2px solid #71cc52;
+  
 }
 
 /* footer section */
@@ -275,17 +277,18 @@ footer h3 {
 }
 footer p {
   color: #ffffff;
+  letter-spacing: 1.2px;
 }
 footer span {
   font-weight: normal;
   padding-left: 24px;
 }
 footer .ph, footer .address {
-  padding-top: 12px;
+  
   padding-bottom: 12px;
 }
 footer .fa {
-  font-size: 12px;
+  font-size: 16px;
   padding-right: 10px;
 }
 
@@ -323,29 +326,34 @@ footer .fa {
 /* copyright section */
 #copyright {
   background:#ffffff ;
-  color: #343434;
-  padding-top: 20px;
+  padding-top: 30px;
   padding-bottom: 20px;
   text-align: center;
 }
 #copyright p {
-  color: #343434;
+  color: #848484;
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: 1px;
+   
 }
 
 #logo {
   margin-top:150px;
 }
 #menu-item {
-  font-family: "Roboto",sans-serif;
-    font-size: 24px;
-    letter-spacing: 1.4px;
-    color:#71cc52;
-    font-weight: 500;
+font-family: "Roboto",sans-serif;
+  font-size: 24px;
+  letter-spacing: 0.5px;
+  color:#777;
+  font-weight: 500;
+  padding-top: 40px;
+  padding-bottom: 20px;
 }
 .heading-footer {
    font-family: "Roboto",sans-serif;
     font-size: 24px;
-    letter-spacing: 2px;
+    letter-spacing: 0.5px;
     color:#ffffff;
     font-weight: 500;
 
